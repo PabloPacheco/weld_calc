@@ -37,9 +37,9 @@ $$ \mathbf{C} = \frac{\mathbf{P}_{\text{inicio}} + \mathbf{P}_{\text{fin}}}{2} \
 Respecto a su centroide, el área de garganta (rectángulo) tiene dos momentos de inercia principales:
 
 - **Eje longitudinal** (paralelo al cordón):  
-  $$ I_{\text{long}} = \frac{1}{12} \left(\frac{h}{\sqrt{2}}\right) l^3 \quad [\text{m}^4] $$
+  $ I_{\text{long}} = \frac{1}{12} \left(\frac{h}{\sqrt{2}}\right) l^3 \quad [\text{m}^4] $
 - **Eje transversal** (perpendicular al cordón en el plano de la garganta):  
-  $$ I_{\text{trans}} = \frac{1}{12} l \left(\frac{h}{\sqrt{2}}\right)^3 \quad [\text{m}^4] $$
+  $ I_{\text{trans}} = \frac{1}{12} l \left(\frac{h}{\sqrt{2}}\right)^3 \quad [\text{m}^4] $
 
 El **momento polar** del cordón (respecto a su centroide) es la suma de ambos:
 
@@ -104,6 +104,7 @@ Dado un conjunto de fuerzas $\mathbf{F}_k$ (en Newtons) aplicadas en puntos $\ma
 $$ 
 \mathbf{F}_{\text{total}} = \sum_k \mathbf{F}_k \quad [\text{N}]
 $$
+
 $$ 
 \mathbf{M}_{\text{total}} = \sum_k \left( (\mathbf{P}_k - \mathbf{C}_G) \times \mathbf{F}_k \right) \quad [\text{N·m}]
 $$
@@ -141,7 +142,7 @@ $$ \boldsymbol{\tau} = \boldsymbol{\tau}_1 + \boldsymbol{\tau}_2 $$
 La tensión normal en el punto $\mathbf{P}$ tiene tres contribuciones:
 
 - **Axial** (debida a $F_z$):  
-  $$ \sigma_{\text{axial}} = \frac{F_z}{A_{\text{total}}} \quad [\text{Pa}] $$
+  $ \sigma_{\text{axial}} = \frac{F_z}{A_{\text{total}}} \quad [\text{Pa}] $
 
 - **Flexión** alrededor de $X$ e $Y$: cuando los ejes no son principales, se utiliza la fórmula general de flexión asimétrica. Sea $\mathbf{r} = \mathbf{P} - \mathbf{C}_G = (x, y, 0)$. La tensión por flexión es:
 
